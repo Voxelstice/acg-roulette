@@ -5,8 +5,8 @@ async function onClick() {
     //alert(choices[Math.floor(Math.random() * choices.length)])
     let counter = 10
 
-    while(counter <= 2500) {
-        counter+=10
+    while(counter <= 6000) {
+        counter+=100
         await setTimeout(function() {if (choice == choices.length-1) { choice = 0} else {choice++} document.getElementById("choice").innerText = choices[choice] }, counter)
     }
 }
