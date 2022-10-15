@@ -1,6 +1,10 @@
 <p>The unofficial acg roulette site by ovxlesitce</p>
 <p>Click buttony to roll</p>
-<p><button>Roll</button> Result</p>
+<button onclick="roll();">Button</button>
 <script>
-  prompt("What's your name?") 
+  const array = ["You are acg ", "Get 0.3d", "HSDHSDGFSF!!", "G!!!!"]
+  
+  function roll() {
+    prompt("CONGRATS!!! YOU ROLL " + array[Math.floor(Math.random() * array.length)]) 
+  }
 </script>
