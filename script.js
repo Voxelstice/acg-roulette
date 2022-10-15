@@ -1,4 +1,4 @@
-const choices = ["congrulations! you got 0.3'd", "you lost! change your pfp to robert for >10 minutes", "you wake up, and you see robert behind you","set your pfp to marcus for 1 day", "play acg for a hour straight, in PUBLIC server", "oh you are an acg player? name all the badges"]
+const choices = ["congrulations! you got 0.3'd", "you lost! change your pfp to robert for >10 minutes", "you wake up, and you see robert behind you","set your pfp to marcus for 1 day", "play acg for a hour straight, in PUBLIC server", "oh you are an acg player? name all the badges", "airpod shotty, BANG (dont talk in any comms app for a minute"]
 
 async function onClick() {
     let choice = Math.floor(Math.random() * choices.length)
