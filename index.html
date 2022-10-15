@@ -1,10 +1,14 @@
-<p>The unofficial acg roulette site by ovxlesitce</p>
-<p>Click buttony to roll</p>
-<button onclick="roll();">Button</button>
-<script>
-  const array = ["You are acg ", "Get 0.3d", "HSDHSDGFSF!!", "G!!!!"]
-  
-  function roll() {
-    prompt("CONGRATS!!! YOU ROLL " + array[Math.floor(Math.random() * array.length)]) 
-  }
-</script>
+<html>
+    <head>
+        <title>ACG Roulette</title>
+    </head>
+    <body>
+        <script src="./script.js"></script>
+        <center>
+            <h1>ACG Roulette</h1>
+            <button onclick="onClick()">spin</button>
+            <h3 id="choice">choice goes here</h3>
+            
+        </center>
+    </body>
+</html>
